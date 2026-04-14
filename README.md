@@ -1,9 +1,7 @@
 # LLM Notes
 
 Personal notes from the **NPTEL course on Large Language Models** by [Prof. Soumen Chakrabarti](https://www.cse.iitb.ac.in/~soumen/) — IIT Bombay.
-
-![LLM Canvas](canvas.png)
-
+![[Pasted image 20260415013530.png]]
 ---
 
 ## What's inside
