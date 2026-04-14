@@ -7,9 +7,10 @@ A cute teddy bear is reading
 
 ### One-hot:
 A → [1,0,0,0,0,0]
-
 ### Hidden state:
+$$
 h_1 = f(W_x x_1 + W_h h_0)h1​=f(Wx​x1​+Wh​h0​)
+$$
 
 👉 Since no previous state:
 
@@ -35,8 +36,26 @@ h₁ ≈ [0.2, 0.9]
 ---
 
 ## 🔹 Step 3: Predict next word
+```math
+||{"id":1521350095464}||
 
+s
+```
+```math
+||{"id":320953565113}||
+
+sdlafja;
+
+```
+```math
+||{"id":404846674536}||
+
+```
+$$
+$$
+$$
 y1=softmax(Wy⋅h1)y_1 = \text{softmax}(W_y \cdot h_1)y1​=softmax(Wy​⋅h1​)
+$$
 Output:
 
 [0.2, 0.4, 0.1, 0.1, 0.1, 0.1]
@@ -104,13 +123,17 @@ At each step:
 
 ### Hidden state:
 
+$$
 ht=tanh⁡(Wxxt+Whht−1)h_t = \tanh(W_x x_t + W_h h_{t-1})ht​=tanh(Wx​xt​+Wh​ht−1​)
+$$
 
 ### Output:
 
+$$
 yt=softmax(Wyht)y_t = \text{softmax}(W_y h_t)yt​=softmax(Wy​ht​)
 
----
+$$
+
 
 # 💡 6. Key Difference from Word2Vec
 
@@ -154,9 +177,12 @@ yt=softmax(Wyht)y_t = \text{softmax}(W_y h_t)yt​=softmax(Wy​ht​)
 Processes sequence one word at a time with memory  
   
 ## Formula  
+$$
 h_t = tanh(Wx xt + Wh h(t-1))  
-y_t = softmax(Wy ht)  
-  
+  ,  y_t = softmax(Wy ht)  
+
+$$
+
 ## Key Feature  
 Uses previous hidden state (memory)  
   
@@ -187,10 +213,3 @@ RNN has problems:
 - LSTM
 - GRU
 - Transformers (LLMs)
-
----
-
-If you want next (highly recommended):
-
-👉 I can explain **LSTM vs RNN (with same example)**  
-👉 OR connect RNN → **Transformer (this is where LLMs start)**
