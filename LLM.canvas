@@ -1,11 +1,5 @@
 {
 	"nodes":[
-		{"id":"title","type":"text","text":"# LLM Wiki","x":-80,"y":-500,"width":260,"height":60,"color":"1"},
-		{"id":"index","type":"file","file":"LLM/index.md","x":-260,"y":-410,"width":200,"height":70},
-		{"id":"log","type":"file","file":"LLM/log.md","x":-30,"y":-410,"width":200,"height":70},
-		{"id":"schema","type":"file","file":"LLM/CLAUDE.md","x":-100,"y":-310,"width":280,"height":70,"color":"5"},
-		{"id":"cheatsheet","type":"file","file":"LLM/cheat sheet llm.canvas","x":260,"y":-310,"width":200,"height":70,"color":"2"},
-		{"id":"concepts_label","type":"text","text":"## concepts/","x":-700,"y":-200,"width":140,"height":50,"color":"3"},
 		{"id":"foundations","type":"file","file":"LLM/concepts/Foundations.md","x":-900,"y":-100,"width":240,"height":70,"color":"3"},
 		{"id":"tokenization","type":"file","file":"LLM/concepts/Tokenization.md","x":-620,"y":-100,"width":240,"height":70,"color":"3"},
 		{"id":"embeddings","type":"file","file":"LLM/concepts/Embeddings.md","x":-340,"y":-100,"width":240,"height":70,"color":"3"},
@@ -13,11 +7,17 @@
 		{"id":"rnns","type":"file","file":"LLM/concepts/RNNs.md","x":220,"y":-100,"width":240,"height":70,"color":"3"},
 		{"id":"seq2seq","type":"file","file":"LLM/concepts/Seq2Seq and Attention.md","x":500,"y":-100,"width":260,"height":70,"color":"3"},
 		{"id":"transformer","type":"file","file":"LLM/concepts/Transformer.md","x":800,"y":-100,"width":240,"height":70,"color":"3"},
-		{"id":"pretraining","type":"file","file":"LLM/concepts/Pre-training Strategies.md","x":-200,"y":60,"width":260,"height":70,"color":"4"},
-		{"id":"instrtuning","type":"file","file":"LLM/concepts/Instruction Tuning.md","x":100,"y":60,"width":240,"height":70,"color":"4"},
-		{"id":"prompting","type":"file","file":"LLM/concepts/Prompting.md","x":380,"y":60,"width":220,"height":70,"color":"4"},
-		{"id":"alignment","type":"file","file":"LLM/concepts/Alignment.md","x":640,"y":60,"width":220,"height":70,"color":"4"},
-		{"id":"chain","type":"text","text":"**Concept Chain (top row)**\nFoundations → Tokenization → Embeddings → GloVe → RNNs → Seq2Seq+Attn → Transformer\n\n**Post-training (bottom row)**\nPre-training → Instruction Tuning → Prompting / Alignment","x":-200,"y":180,"width":660,"height":100,"color":"6"}
+		{"id":"title","type":"text","text":"# LLM Wiki","x":-190,"y":-920,"width":260,"height":60,"color":"1"},
+		{"id":"index","type":"file","file":"LLM/index.md","x":-400,"y":-710,"width":200,"height":70},
+		{"id":"schema","type":"file","file":"LLM/CLAUDE.md","x":-200,"y":-600,"width":280,"height":70,"color":"5"},
+		{"id":"log","type":"file","file":"LLM/log.md","x":80,"y":-710,"width":200,"height":70},
+		{"id":"cheatsheet","type":"file","file":"LLM/cheat sheet llm.canvas","x":260,"y":-600,"width":200,"height":70,"color":"2"},
+		{"id":"chain","type":"text","text":"**Concept Chain (top row)**\nFoundations → Tokenization → Embeddings → GloVe → RNNs → Seq2Seq+Attn → Transformer\n\n**Post-training (bottom row)**\nPre-training → Instruction Tuning → Prompting / Alignment","x":260,"y":300,"width":660,"height":100,"color":"6"},
+		{"id":"prompting","type":"file","file":"LLM/concepts/Prompting.md","x":410,"y":130,"width":220,"height":70,"color":"4"},
+		{"id":"alignment","type":"file","file":"LLM/concepts/Alignment.md","x":690,"y":130,"width":220,"height":70,"color":"4"},
+		{"id":"instrtuning","type":"file","file":"LLM/concepts/Instruction Tuning.md","x":100,"y":130,"width":240,"height":70,"color":"4"},
+		{"id":"pretraining","type":"file","file":"LLM/concepts/Pre-training Strategies.md","x":-200,"y":130,"width":260,"height":70,"color":"4"},
+		{"id":"concepts_label","type":"text","text":"## concepts/","x":-130,"y":-440,"width":140,"height":50,"color":"3"}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"title","fromSide":"bottom","toNode":"index","toSide":"top"},
