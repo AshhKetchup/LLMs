@@ -4,6 +4,9 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <title>`_
 
 ---
 
+## [2026-04-15] update | concepts/Foundations.md
+Rewrote page to match wiki conventions: added YAML frontmatter, LaTeX formulas (Word2Vec analogy, scaled dot-product attention), NLP task taxonomy table, tokenization strategy table, negative sampling explanation, static embedding limitation, and full attention overview (QKV formula). Removed emoji-prefixed rough notes.
+
 ## [2026-04-14] ingest | concepts/Foundations.md
 Initial wiki setup. Page covers: NLP task types (classification, multi-classification, generation), Tokenization intro, token representation, Word2Vec (skip-gram & CBOW), polysemy limitation, links to Embeddings/Tokenization/Transformer/RNNs, and Attention overview stub.
 
